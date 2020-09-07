@@ -3,13 +3,13 @@ name = "poetry-lib"
 version = "0.1.0"
 description = ""
 authors = ["va034600 <va034600@gmail.com>"]
+packages = [
+    { include = "poetry-lib" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.6"
 python-dateutil = "^2.8.1"
-packages = [
-    { include = "poetry-lib" },
-]
 
 [tool.poetry.dev-dependencies]
 
